@@ -14,7 +14,7 @@ export function Menu({ navigation }: MenuProps) {
         navigation.navigate(component);
     }
 
-    if (process.env.NODE_ENV === 'development') {
+    if (DEVELOPMENT) {
         const Development = demos.find(({ name }) => name === 'Development');
         if (Development) {
             setTimeout(() => {

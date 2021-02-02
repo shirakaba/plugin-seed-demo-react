@@ -2,6 +2,7 @@ import { NativeScriptConfig } from '@nativescript/core';
 
 export default {
     id: 'org.nativescript.demoreact',
+    webpackConfigPath: './app.webpack.config.js',
     appResourcesPath: 'App_Resources',
     android: {
         maxLogcatObjectSize: 2048,
