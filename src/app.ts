@@ -12,6 +12,16 @@ purpose of the file is to pass control to the app’s first module.
 import * as ReactNativeScript from 'react-nativescript';
 import { mainStackNavigator as AppContainer } from './components/Navigator';
 
+declare var com: any;
+if(com.facebook){
+    console.log(`com.facebook`, com.facebook);
+    for(let key in com.facebook){
+        console.log(key);
+    }
+} else {
+    console.log(`com.facebook: undefined`);
+}
+
 import { install } from './components/linked-components/install';
 install();
 
