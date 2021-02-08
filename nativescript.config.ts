@@ -1,7 +1,7 @@
 import { NativeScriptConfig } from '@nativescript/core';
 
 export default {
-    id: 'org.nativescript.demoreact',
+    id: 'org.nativescript.reactnative',
     webpackConfigPath: './app.webpack.config.js',
     appResourcesPath: 'App_Resources',
     android: {
