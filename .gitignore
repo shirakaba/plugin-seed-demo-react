@@ -52,3 +52,4 @@ plugin/*.ngsummary.json
 plugin/*.metadata.json
 plugin/angular
 pnpm-lock.yaml
+webpack.typescript.js
