@@ -1,7 +1,9 @@
 # NativeScript
 hooks/
 node_modules/
-platforms/
+platforms/tempPlugin/
+platforms/android/*
+!platforms/android/build.gradle
 
 # NativeScript Template
 *.js.map
